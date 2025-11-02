@@ -14,4 +14,6 @@ RUN uv sync --frozen --no-dev
 
 COPY . .
 
+EXPOSE 8050
+
 CMD ["uv", "run", "python", "app.py"]
