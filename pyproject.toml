@@ -1,11 +1,10 @@
 [project]
 name = "gencon"
 version = "0.1.0"
-description = "Add your description here"
+description = "Energy market analysis for Ghana Grid Company"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
-    "ipykernel>=7.1.0",
     "pandas>=2.3.3",
     "numpy>=2.0.0",
     "dash>=2.18.0",
@@ -13,4 +12,9 @@ dependencies = [
     "plotly>=5.24.0",
     "fastparquet>=2024.11.0",
     "openpyxl>=3.1.5",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.1.0",
 ]
