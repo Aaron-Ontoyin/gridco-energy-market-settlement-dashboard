@@ -1,0 +1,123 @@
+/* General Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f8f9fa;
+}
+
+.hidden {
+    display: none;
+}
+
+/* Header Styles */
+.dashboard-header {
+    background: white;
+    padding: 1.5rem 2rem;
+    border-bottom: 2px solid #e9ecef;
+    margin-bottom: 2rem;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.01);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dashboard-title {
+    color: #4d61bc;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 0;
+}
+
+/* Card Styles */
+.data-card {
+    background: white;
+    border-radius: 10px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+    border: 1px solid #e9ecef;
+}
+
+.filter-card {
+    background: white;
+    border-radius: 8px;
+    padding: 1rem;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.03);
+    border: 1px solid #e9ecef;
+}
+
+.card-title {
+    color: #667eea;
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+/* Upload Section Styles */
+.upload-section-title {
+    display: flex;
+    align-items: center;
+    color: #667eea;
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+}
+
+.upload-section-upload {
+    width: 100%;
+    height: 80px;
+    line-height: 80px;
+    border-width: 2px;
+    border-style: dashed;
+    border-radius: 10px;
+    text-align: center;
+    border-color: #667eea;
+    cursor: pointer;
+    background-color: #f8f9fa;
+    transition: all 0.3s ease;
+}
+
+.upload-section-upload:hover {
+    background-color: #f0f3ff;
+    border-color: #5568d3;
+}
+
+/* Dashboard Content Styles */
+#dashboard-content {
+    margin-top: 2rem;
+}
+
+/* Dropdowns */
+.dash-dropdown {
+    border-radius: 5px;
+}
+
+/* Custom scrollbar for tables */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+
+.accordion-button {
+    background-color: transparent !important;
+    border: none !important;
+}
+
+.accordion-button:focus {
+    box-shadow: none !important;
+}

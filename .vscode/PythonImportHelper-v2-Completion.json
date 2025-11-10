@@ -44,20 +44,52 @@
         "documentation": {}
     },
     {
-        "label": "datetime",
-        "importPath": "datetime",
-        "description": "datetime",
+        "label": "pandas",
+        "kind": 6,
         "isExtraImport": true,
-        "detail": "datetime",
+        "importPath": "pandas",
+        "description": "pandas",
+        "detail": "pandas",
         "documentation": {}
     },
     {
-        "label": "base64",
-        "kind": 6,
+        "label": "dataclass",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
         "isExtraImport": true,
-        "importPath": "base64",
-        "description": "base64",
-        "detail": "base64",
+        "detail": "dataclasses",
+        "documentation": {}
+    },
+    {
+        "label": "BytesIO",
+        "importPath": "io",
+        "description": "io",
+        "isExtraImport": true,
+        "detail": "io",
+        "documentation": {}
+    },
+    {
+        "label": "StringIO",
+        "importPath": "io",
+        "description": "io",
+        "isExtraImport": true,
+        "detail": "io",
+        "documentation": {}
+    },
+    {
+        "label": "StringIO",
+        "importPath": "io",
+        "description": "io",
+        "isExtraImport": true,
+        "detail": "io",
+        "documentation": {}
+    },
+    {
+        "label": "StringIO",
+        "importPath": "io",
+        "description": "io",
+        "isExtraImport": true,
+        "detail": "io",
         "documentation": {}
     },
     {
@@ -77,12 +109,212 @@
         "documentation": {}
     },
     {
-        "label": "pandas",
+        "label": "plotly.express",
         "kind": 6,
         "isExtraImport": true,
-        "importPath": "pandas",
-        "description": "pandas",
-        "detail": "pandas",
+        "importPath": "plotly.express",
+        "description": "plotly.express",
+        "detail": "plotly.express",
+        "documentation": {}
+    },
+    {
+        "label": "callback",
+        "importPath": "dash",
+        "description": "dash",
+        "isExtraImport": true,
+        "detail": "dash",
+        "documentation": {}
+    },
+    {
+        "label": "Output",
+        "importPath": "dash",
+        "description": "dash",
+        "isExtraImport": true,
+        "detail": "dash",
+        "documentation": {}
+    },
+    {
+        "label": "Input",
+        "importPath": "dash",
+        "description": "dash",
+        "isExtraImport": true,
+        "detail": "dash",
+        "documentation": {}
+    },
+    {
+        "label": "State",
+        "importPath": "dash",
+        "description": "dash",
+        "isExtraImport": true,
+        "detail": "dash",
+        "documentation": {}
+    },
+    {
+        "label": "callback",
+        "importPath": "dash",
+        "description": "dash",
+        "isExtraImport": true,
+        "detail": "dash",
+        "documentation": {}
+    },
+    {
+        "label": "Output",
+        "importPath": "dash",
+        "description": "dash",
+        "isExtraImport": true,
+        "detail": "dash",
+        "documentation": {}
+    },
+    {
+        "label": "Input",
+        "importPath": "dash",
+        "description": "dash",
+        "isExtraImport": true,
+        "detail": "dash",
+        "documentation": {}
+    },
+    {
+        "label": "State",
+        "importPath": "dash",
+        "description": "dash",
+        "isExtraImport": true,
+        "detail": "dash",
+        "documentation": {}
+    },
+    {
+        "label": "callback",
+        "importPath": "dash",
+        "description": "dash",
+        "isExtraImport": true,
+        "detail": "dash",
+        "documentation": {}
+    },
+    {
+        "label": "Output",
+        "importPath": "dash",
+        "description": "dash",
+        "isExtraImport": true,
+        "detail": "dash",
+        "documentation": {}
+    },
+    {
+        "label": "Input",
+        "importPath": "dash",
+        "description": "dash",
+        "isExtraImport": true,
+        "detail": "dash",
+        "documentation": {}
+    },
+    {
+        "label": "State",
+        "importPath": "dash",
+        "description": "dash",
+        "isExtraImport": true,
+        "detail": "dash",
+        "documentation": {}
+    },
+    {
+        "label": "callback",
+        "importPath": "dash",
+        "description": "dash",
+        "isExtraImport": true,
+        "detail": "dash",
+        "documentation": {}
+    },
+    {
+        "label": "Input",
+        "importPath": "dash",
+        "description": "dash",
+        "isExtraImport": true,
+        "detail": "dash",
+        "documentation": {}
+    },
+    {
+        "label": "Output",
+        "importPath": "dash",
+        "description": "dash",
+        "isExtraImport": true,
+        "detail": "dash",
+        "documentation": {}
+    },
+    {
+        "label": "State",
+        "importPath": "dash",
+        "description": "dash",
+        "isExtraImport": true,
+        "detail": "dash",
+        "documentation": {}
+    },
+    {
+        "label": "no_update",
+        "importPath": "dash",
+        "description": "dash",
+        "isExtraImport": true,
+        "detail": "dash",
+        "documentation": {}
+    },
+    {
+        "label": "ctx",
+        "importPath": "dash",
+        "description": "dash",
+        "isExtraImport": true,
+        "detail": "dash",
+        "documentation": {}
+    },
+    {
+        "label": "html",
+        "importPath": "dash",
+        "description": "dash",
+        "isExtraImport": true,
+        "detail": "dash",
+        "documentation": {}
+    },
+    {
+        "label": "Patch",
+        "importPath": "dash",
+        "description": "dash",
+        "isExtraImport": true,
+        "detail": "dash",
+        "documentation": {}
+    },
+    {
+        "label": "html",
+        "importPath": "dash",
+        "description": "dash",
+        "isExtraImport": true,
+        "detail": "dash",
+        "documentation": {}
+    },
+    {
+        "label": "dcc",
+        "importPath": "dash",
+        "description": "dash",
+        "isExtraImport": true,
+        "detail": "dash",
+        "documentation": {}
+    },
+    {
+        "label": "html",
+        "importPath": "dash",
+        "description": "dash",
+        "isExtraImport": true,
+        "detail": "dash",
+        "documentation": {}
+    },
+    {
+        "label": "html",
+        "importPath": "dash",
+        "description": "dash",
+        "isExtraImport": true,
+        "detail": "dash",
+        "documentation": {}
+    },
+    {
+        "label": "dcc",
+        "importPath": "dash",
+        "description": "dash",
+        "isExtraImport": true,
+        "detail": "dash",
         "documentation": {}
     },
     {
@@ -142,12 +374,69 @@
         "documentation": {}
     },
     {
-        "label": "plotly.graph_objs",
+        "label": "Dash",
+        "importPath": "dash",
+        "description": "dash",
+        "isExtraImport": true,
+        "detail": "dash",
+        "documentation": {}
+    },
+    {
+        "label": "dcc",
+        "importPath": "dash",
+        "description": "dash",
+        "isExtraImport": true,
+        "detail": "dash",
+        "documentation": {}
+    },
+    {
+        "label": "html",
+        "importPath": "dash",
+        "description": "dash",
+        "isExtraImport": true,
+        "detail": "dash",
+        "documentation": {}
+    },
+    {
+        "label": "PreventUpdate",
+        "importPath": "dash.exceptions",
+        "description": "dash.exceptions",
+        "isExtraImport": true,
+        "detail": "dash.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "PreventUpdate",
+        "importPath": "dash.exceptions",
+        "description": "dash.exceptions",
+        "isExtraImport": true,
+        "detail": "dash.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "PreventUpdate",
+        "importPath": "dash.exceptions",
+        "description": "dash.exceptions",
+        "isExtraImport": true,
+        "detail": "dash.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "plotly.graph_objects",
         "kind": 6,
         "isExtraImport": true,
-        "importPath": "plotly.graph_objs",
-        "description": "plotly.graph_objs",
-        "detail": "plotly.graph_objs",
+        "importPath": "plotly.graph_objects",
+        "description": "plotly.graph_objects",
+        "detail": "plotly.graph_objects",
+        "documentation": {}
+    },
+    {
+        "label": "base64",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "base64",
+        "description": "base64",
+        "detail": "base64",
         "documentation": {}
     },
     {
@@ -160,11 +449,61 @@
         "documentation": {}
     },
     {
+        "label": "dash_datetimepicker",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "dash_datetimepicker",
+        "description": "dash_datetimepicker",
+        "detail": "dash_datetimepicker",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "plotly.graph_objs",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "plotly.graph_objs",
+        "description": "plotly.graph_objs",
+        "detail": "plotly.graph_objs",
+        "documentation": {}
+    },
+    {
         "label": "EnergyDataLoader",
         "importPath": "data_loader",
         "description": "data_loader",
         "isExtraImport": true,
         "detail": "data_loader",
+        "documentation": {}
+    },
+    {
+        "label": "register_callbacks",
+        "importPath": "callbacks",
+        "description": "callbacks",
+        "isExtraImport": true,
+        "detail": "callbacks",
+        "documentation": {}
+    },
+    {
+        "label": "upload_section_ui",
+        "importPath": "ui",
+        "description": "ui",
+        "isExtraImport": true,
+        "detail": "ui",
+        "documentation": {}
+    },
+    {
+        "label": "dashboard_content_ui",
+        "importPath": "ui",
+        "description": "ui",
+        "isExtraImport": true,
+        "detail": "ui",
         "documentation": {}
     },
     {
@@ -249,47 +588,227 @@
         "documentation": {}
     },
     {
+        "label": "UploadedData",
+        "kind": 6,
+        "importPath": "callbacks.data_loader",
+        "description": "callbacks.data_loader",
+        "peekOfCode": "class UploadedData:\n    generations: pd.DataFrame\n    consumptions: pd.DataFrame\n    plant_consumer: pd.DataFrame\nclass EnergyDataLoader:\n    \"\"\"Utility class to load and process energy consumption data from Excel files.\"\"\"\n    @staticmethod\n    def load_from_excel(file_content: bytes) -> UploadedData:\n        \"\"\"\n        Load energy data from Excel file content.",
+        "detail": "callbacks.data_loader",
+        "documentation": {}
+    },
+    {
+        "label": "EnergyDataLoader",
+        "kind": 6,
+        "importPath": "callbacks.data_loader",
+        "description": "callbacks.data_loader",
+        "peekOfCode": "class EnergyDataLoader:\n    \"\"\"Utility class to load and process energy consumption data from Excel files.\"\"\"\n    @staticmethod\n    def load_from_excel(file_content: bytes) -> UploadedData:\n        \"\"\"\n        Load energy data from Excel file content.\n        Args:\n            file_content: Bytes content of the Excel file\n        Returns:\n            UploadedData",
+        "detail": "callbacks.data_loader",
+        "documentation": {}
+    },
+    {
+        "label": "update_gen_mix_ipps_chart",
+        "kind": 2,
+        "importPath": "callbacks.gen_mix_ipps",
+        "description": "callbacks.gen_mix_ipps",
+        "peekOfCode": "def update_gen_mix_ipps_chart(\n    generations_json, start_datetime, end_datetime, graphs_type\n):\n    if not generations_json:\n        raise PreventUpdate\n    start_datetime = pd.to_datetime(start_datetime)\n    end_datetime = pd.to_datetime(end_datetime)\n    readable_start_datetime = start_datetime.strftime(\"%b %d, %y, %H:%M\")\n    readable_end_datetime = end_datetime.strftime(\"%b %d, %y, %H:%M\")\n    gen_mix_data = pd.read_json(StringIO(generations_json), orient=\"split\")",
+        "detail": "callbacks.gen_mix_ipps",
+        "documentation": {}
+    },
+    {
+        "label": "import_me",
+        "kind": 5,
+        "importPath": "callbacks.gen_mix_ipps",
+        "description": "callbacks.gen_mix_ipps",
+        "peekOfCode": "import_me = True",
+        "detail": "callbacks.gen_mix_ipps",
+        "documentation": {}
+    },
+    {
+        "label": "update_metrics",
+        "kind": 2,
+        "importPath": "callbacks.metrics",
+        "description": "callbacks.metrics",
+        "peekOfCode": "def update_metrics(\n    pathname,\n    start_datetime,\n    end_datetime,\n    generations_json,\n    consumptions_json,\n):\n    generations = pd.read_json(StringIO(generations_json), orient=\"split\")\n    consumptions = pd.read_json(StringIO(consumptions_json), orient=\"split\")\n    generations[\"Datetime\"] = pd.to_datetime(generations[\"Datetime\"], utc=True)",
+        "detail": "callbacks.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "import_me",
+        "kind": 5,
+        "importPath": "callbacks.metrics",
+        "description": "callbacks.metrics",
+        "peekOfCode": "import_me = True",
+        "detail": "callbacks.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "update_plant_generation_profiles_chart",
+        "kind": 2,
+        "importPath": "callbacks.plant_generation_profiles",
+        "description": "callbacks.plant_generation_profiles",
+        "peekOfCode": "def update_plant_generation_profiles_chart(\n    generations_json,\n    wholesale_suppliers,\n    start_datetime,\n    end_datetime,\n):\n    if not generations_json or not wholesale_suppliers:\n        raise PreventUpdate\n    wholesale_suppliers = (\n        [wholesale_suppliers]",
+        "detail": "callbacks.plant_generation_profiles",
+        "documentation": {}
+    },
+    {
+        "label": "import_me",
+        "kind": 5,
+        "importPath": "callbacks.plant_generation_profiles",
+        "description": "callbacks.plant_generation_profiles",
+        "peekOfCode": "import_me = True",
+        "detail": "callbacks.plant_generation_profiles",
+        "documentation": {}
+    },
+    {
+        "label": "df_to_json",
+        "kind": 2,
+        "importPath": "callbacks.upload",
+        "description": "callbacks.upload",
+        "peekOfCode": "def df_to_json(df: pd.DataFrame) -> str | None:\n    \"\"\"Convert DataFrame to JSON string for storage.\"\"\"\n    return df.to_json(date_format=\"iso\", orient=\"split\")\n@callback(\n    output=dict(\n        upload_section_class=Output(\"upload-section\", \"className\"),\n        dashboard_content_class=Output(\"dashboard-content\", \"className\"),\n        uploaded_data=dict(\n            generations_data=Output(\"generations-store\", \"data\"),\n            consumptions_data=Output(\"consumptions-store\", \"data\"),",
+        "detail": "callbacks.upload",
+        "documentation": {}
+    },
+    {
+        "label": "show_upload_or_dashboard",
+        "kind": 2,
+        "importPath": "callbacks.upload",
+        "description": "callbacks.upload",
+        "peekOfCode": "def show_upload_or_dashboard(pathname, reload_button, uploaded_data, global_state_in):\n    \"\"\"\n    Control visibility of upload section vs dashboard based on data availability.\n    Handles two main scenarios:\n    1. Reload button clicked: Clear all data and show upload section\n    2. Page navigation: Show dashboard if data exists, otherwise show upload section\n    \"\"\"\n    global_state_in[\"data-name\"] = global_state_in[\"data-name\"] or \"No data loaded\"\n    output = {\n        \"upload_section_class\": \"\",",
+        "detail": "callbacks.upload",
+        "documentation": {}
+    },
+    {
         "label": "upload_file",
         "kind": 2,
-        "importPath": "app",
-        "description": "app",
+        "importPath": "callbacks.upload",
+        "description": "callbacks.upload",
+        "peekOfCode": "def upload_file(upload_data_contents, upload_data_filename):\n    \"\"\"\n    Handle file upload, validation, and data processing.\n    Processes uploaded Excel file containing energy settlement data,\n    validates it, and stores it in session storage. On success, navigates\n    to the dashboard view.\n    Returns:\n        dict: Contains processed data, upload status, and navigation state\n    \"\"\"\n    if upload_data_contents is None:",
+        "detail": "callbacks.upload",
+        "documentation": {}
+    },
+    {
+        "label": "import_me",
+        "kind": 5,
+        "importPath": "callbacks.upload",
+        "description": "callbacks.upload",
+        "peekOfCode": "import_me = True",
+        "detail": "callbacks.upload",
+        "documentation": {}
+    },
+    {
+        "label": "text_fig",
+        "kind": 2,
+        "importPath": "callbacks.utitls",
+        "description": "callbacks.utitls",
+        "peekOfCode": "def text_fig(text: str, color: str = \"orange\"):\n    fig = go.Figure()\n    fig.add_annotation(\n        text=text,\n        xref=\"paper\",\n        yref=\"paper\",\n        x=0.5,\n        y=0.5,\n        showarrow=False,\n        font=dict(size=14, color=color),",
+        "detail": "callbacks.utitls",
+        "documentation": {}
+    },
+    {
+        "label": "dashboard_content_ui",
+        "kind": 5,
+        "importPath": "ui.dashboard",
+        "description": "ui.dashboard",
+        "peekOfCode": "dashboard_content_ui = html.Div(\n    [\n        html.Div(\n            [\n                dash_datetimepicker.DashDatetimepicker(id=\"datetime-range\", utc=True),\n                dbc.Select(\n                    id=\"graphs-type\",\n                    options=[\n                        {\"label\": \"Bar Chart\", \"value\": \"bar-chart\"},\n                        {\"label\": \"Pie Chart\", \"value\": \"pie-chart\"},",
+        "detail": "ui.dashboard",
+        "documentation": {}
+    },
+    {
+        "label": "metrics_ui",
+        "kind": 5,
+        "importPath": "ui.metrics",
+        "description": "ui.metrics",
+        "peekOfCode": "metrics_ui = dbc.Row(\n    [\n        dbc.Col(\n            html.Div(\n                [\n                    html.Div(\n                        \"Total Generation\",\n                        style={\n                            \"font-size\": \"0.9rem\",\n                            \"color\": \"#666\",",
+        "detail": "ui.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "upload_section_ui",
+        "kind": 5,
+        "importPath": "ui.upload",
+        "description": "ui.upload",
+        "peekOfCode": "upload_section_ui = html.Div(\n    [\n        html.Div(\n            [\n                html.I(\n                    className=\"fas fa-cloud-upload-alt\",\n                    style={\"margin-right\": \"0.75rem\", \"font-size\": \"1.5rem\"},\n                ),\n                html.H4(\n                    \"Upload Data (Excel)\",",
+        "detail": "ui.upload",
+        "documentation": {}
+    },
+    {
+        "label": "upload_file",
+        "kind": 2,
+        "importPath": "_app",
+        "description": "_app",
         "peekOfCode": "def upload_file(contents, filename):\n    if contents is None:\n        return None, None, None, \"\"\n    try:\n        content_type, content_string = contents.split(\",\")\n        decoded = base64.b64decode(content_string)\n        generations, consumptions, plant_consumer = EnergyDataLoader.load_from_excel(\n            decoded\n        )\n        if not EnergyDataLoader.validate_data(",
-        "detail": "app",
+        "detail": "_app",
         "documentation": {}
     },
     {
         "label": "reload_data",
         "kind": 2,
-        "importPath": "app",
-        "description": "app",
+        "importPath": "_app",
+        "description": "_app",
         "peekOfCode": "def reload_data(n_clicks):\n    if n_clicks:\n        return None, None, None, \"\"\n    return None, None, None, \"\"\n@app.callback(\n    [\n        Output(\"upload-section\", \"style\"),\n        Output(\"dashboard-content\", \"style\"),\n        Output(\"consumer-dropdown\", \"options\"),\n        Output(\"consumer-dropdown\", \"value\"),",
-        "detail": "app",
+        "detail": "_app",
         "documentation": {}
     },
     {
         "label": "update_dropdowns",
         "kind": 2,
-        "importPath": "app",
-        "description": "app",
+        "importPath": "_app",
+        "description": "_app",
         "peekOfCode": "def update_dropdowns(generations_json, plant_consumer_json):\n    if generations_json is None or plant_consumer_json is None:\n        return {\"display\": \"block\"}, {\"display\": \"none\"}, [], None, [], None, [], None, [], None\n    try:\n        generations = pd.read_json(StringIO(generations_json), orient=\"split\")\n        plant_consumer = pd.read_json(StringIO(plant_consumer_json), orient=\"split\")\n        consumers = sorted(plant_consumer[\"Consumer\"].unique())\n        dates = sorted(generations[\"Datetime\"].dt.date.unique())\n        consumer_options = [{\"label\": c, \"value\": c} for c in consumers]\n        date_options = [{\"label\": str(d), \"value\": str(d)} for d in dates]",
-        "detail": "app",
+        "detail": "_app",
         "documentation": {}
     },
     {
         "label": "update_overview",
         "kind": 2,
-        "importPath": "app",
-        "description": "app",
+        "importPath": "_app",
+        "description": "_app",
         "peekOfCode": "def update_overview(start_datetime, end_datetime, generations_json, consumptions_json):\n    if not all([start_datetime, end_datetime, generations_json, consumptions_json]):\n        return html.Div(\n            \"Please select start and end datetime\",\n            style={\"text-align\": \"center\", \"padding\": \"2rem\", \"color\": \"#999\"},\n        )\n    try:\n        # Parse data\n        generations = pd.read_json(StringIO(generations_json), orient=\"split\")\n        consumptions = pd.read_json(StringIO(consumptions_json), orient=\"split\")",
-        "detail": "app",
+        "detail": "_app",
         "documentation": {}
     },
     {
         "label": "update_dashboard",
         "kind": 2,
+        "importPath": "_app",
+        "description": "_app",
+        "peekOfCode": "def update_dashboard(\n    selected_consumer: str,\n    selected_date_str: str,\n    generations_json,\n    consumptions_json,\n    plant_consumer_json,\n):\n    # Return empty if no data or no selections\n    if (\n        not selected_consumer",
+        "detail": "_app",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "_app",
+        "description": "_app",
+        "peekOfCode": "app = Dash(__name__, external_stylesheets=[dbc.themes.FLATLY])\napp.index_string = \"\"\"\n<!DOCTYPE html>\n<html>\n    <head>\n        {%metas%}\n        <title>Energy Consumption Dashboard</title>\n        {%favicon%}\n        {%css%}\n        <style>",
+        "detail": "_app",
+        "documentation": {}
+    },
+    {
+        "label": "app.index_string",
+        "kind": 5,
+        "importPath": "_app",
+        "description": "_app",
+        "peekOfCode": "app.index_string = \"\"\"\n<!DOCTYPE html>\n<html>\n    <head>\n        {%metas%}\n        <title>Energy Consumption Dashboard</title>\n        {%favicon%}\n        {%css%}\n        <style>\n            body {",
+        "detail": "_app",
+        "documentation": {}
+    },
+    {
+        "label": "app.layout",
+        "kind": 5,
+        "importPath": "_app",
+        "description": "_app",
+        "peekOfCode": "app.layout = dbc.Container(\n    [\n        # Header\n        html.Div(\n            [html.H1(\"Energy Settlement Dashboard\", className=\"dashboard-title\")],\n            className=\"dashboard-header\",\n        ),\n        # Data stores (in-memory, expires on browser close)\n        dcc.Store(id=\"generations-store\"),\n        dcc.Store(id=\"consumptions-store\"),",
+        "detail": "_app",
+        "documentation": {}
+    },
+    {
+        "label": "external_stylesheets",
+        "kind": 5,
         "importPath": "app",
         "description": "app",
-        "peekOfCode": "def update_dashboard(\n    selected_consumer: str,\n    selected_date_str: str,\n    generations_json,\n    consumptions_json,\n    plant_consumer_json,\n):\n    # Return empty if no data or no selections\n    if (\n        not selected_consumer",
+        "peekOfCode": "external_stylesheets = [\n    dbc.themes.FLATLY,\n    \"assets/styles.css\",\n    \"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css\",\n]\napp = Dash(\n    __name__,\n    title=\"Gridco ESD\",\n    suppress_callback_exceptions=True,\n    external_stylesheets=external_stylesheets,",
         "detail": "app",
         "documentation": {}
     },
@@ -298,16 +817,7 @@
         "kind": 5,
         "importPath": "app",
         "description": "app",
-        "peekOfCode": "app = Dash(__name__, external_stylesheets=[dbc.themes.FLATLY])\napp.index_string = \"\"\"\n<!DOCTYPE html>\n<html>\n    <head>\n        {%metas%}\n        <title>Energy Consumption Dashboard</title>\n        {%favicon%}\n        {%css%}\n        <style>",
-        "detail": "app",
-        "documentation": {}
-    },
-    {
-        "label": "app.index_string",
-        "kind": 5,
-        "importPath": "app",
-        "description": "app",
-        "peekOfCode": "app.index_string = \"\"\"\n<!DOCTYPE html>\n<html>\n    <head>\n        {%metas%}\n        <title>Energy Consumption Dashboard</title>\n        {%favicon%}\n        {%css%}\n        <style>\n            body {",
+        "peekOfCode": "app = Dash(\n    __name__,\n    title=\"Gridco ESD\",\n    suppress_callback_exceptions=True,\n    external_stylesheets=external_stylesheets,\n    prevent_initial_callbacks=True,\n)\napp.layout = dbc.Container(\n    [\n        dcc.Location(id=\"pathname\"),",
         "detail": "app",
         "documentation": {}
     },
@@ -316,7 +826,7 @@
         "kind": 5,
         "importPath": "app",
         "description": "app",
-        "peekOfCode": "app.layout = dbc.Container(\n    [\n        # Header\n        html.Div(\n            [html.H1(\"Energy Settlement Dashboard\", className=\"dashboard-title\")],\n            className=\"dashboard-header\",\n        ),\n        # Data stores (in-memory, expires on browser close)\n        dcc.Store(id=\"generations-store\"),\n        dcc.Store(id=\"consumptions-store\"),",
+        "peekOfCode": "app.layout = dbc.Container(\n    [\n        dcc.Location(id=\"pathname\"),\n        html.Div(id=\"dummy-output\", style={\"display\": \"none\"}),\n        dcc.Store(id=\"generations-store\", storage_type=\"session\"),\n        dcc.Store(id=\"consumptions-store\", storage_type=\"session\"),\n        dcc.Store(id=\"plant-consumer-store\", storage_type=\"session\"),\n        dcc.Store(\n            id=\"global-state-store\",\n            storage_type=\"session\",",
         "detail": "app",
         "documentation": {}
     },
@@ -327,15 +837,6 @@
         "description": "data_loader",
         "peekOfCode": "class EnergyDataLoader:\n    \"\"\"Utility class to load and process energy consumption data from Excel files.\"\"\"\n    @staticmethod\n    def load_from_excel(\n        file_content: bytes,\n    ) -> tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame]:\n        \"\"\"\n        Load energy data from Excel file content.\n        Args:\n            file_content: Bytes content of the Excel file",
         "detail": "data_loader",
-        "documentation": {}
-    },
-    {
-        "label": "main",
-        "kind": 2,
-        "importPath": "main",
-        "description": "main",
-        "peekOfCode": "def main():\n    print(\"Hello from gencon!\")\nif __name__ == \"__main__\":\n    main()",
-        "detail": "main",
         "documentation": {}
     }
 ]
