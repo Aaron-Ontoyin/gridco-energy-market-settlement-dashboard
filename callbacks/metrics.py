@@ -1,6 +1,7 @@
 from io import StringIO
 
 from dash import callback, Output, Input, State
+from dash.exceptions import PreventUpdate
 import pandas as pd
 
 
@@ -12,8 +13,8 @@ import pandas as pd
     ),
     inputs=dict(
         pathname=Input("pathname", "href"),
-        start_datetime=Input("datetime-range", "startDate"),
-        end_datetime=Input("datetime-range", "endDate"),
+        start_datetime=Input("start-datetime", "value"),
+        end_datetime=Input("end-datetime", "value"),
         generations_json=State("generations-store", "data"),
         consumptions_json=State("consumptions-store", "data"),
     ),
@@ -26,13 +27,23 @@ def update_metrics(
     generations_json,
     consumptions_json,
 ):
+    if not all([generations_json, consumptions_json]):
+        raise PreventUpdate
+
+    if not all([start_datetime, end_datetime]):
+        return dict(
+            total_generation="Select start and end periods",
+            total_consumption="Select start and end periods",
+            loss_percentage="Select start and end periods",
+        )
+
     generations = pd.read_json(StringIO(generations_json), orient="split")
     consumptions = pd.read_json(StringIO(consumptions_json), orient="split")
 
     generations["Datetime"] = pd.to_datetime(generations["Datetime"], utc=True)
     consumptions["Datetime"] = pd.to_datetime(consumptions["Datetime"], utc=True)
-    end_datetime = pd.to_datetime(end_datetime)
-    start_datetime = pd.to_datetime(start_datetime)
+    end_datetime = pd.to_datetime(end_datetime, utc=True)
+    start_datetime = pd.to_datetime(start_datetime, utc=True)
 
     generations = generations[
         (generations["Datetime"] >= start_datetime)

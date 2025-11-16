@@ -7,6 +7,7 @@ defines the layout, and registers all callbacks.
 
 from dash import Dash, dcc, html
 import dash_bootstrap_components as dbc
+import dash_mantine_components as dmc
 
 from callbacks import register_callbacks
 from ui import upload_section_ui, dashboard_content_ui
@@ -26,7 +27,7 @@ app = Dash(
     prevent_initial_callbacks=True,
 )
 
-app.layout = dbc.Container(
+layout = dbc.Container(
     [
         dcc.Location(id="pathname"),
         html.Div(id="dummy-output", style={"display": "none"}),
@@ -106,6 +107,8 @@ app.layout = dbc.Container(
     fluid=True,
     style={"padding": "2rem"},
 )
+
+app.layout = dmc.MantineProvider(layout)
 
 register_callbacks(app)
 

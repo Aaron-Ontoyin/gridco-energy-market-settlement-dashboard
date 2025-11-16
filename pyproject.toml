@@ -12,7 +12,7 @@ dependencies = [
     "fastparquet>=2024.11.0",
     "openpyxl>=3.1.5",
     "dash[async]>=3.2.0",
-    "dash-datetimepicker>=0.0.7",
+    "dash-mantine-components>=2.4.0",
 ]
 
 [dependency-groups]

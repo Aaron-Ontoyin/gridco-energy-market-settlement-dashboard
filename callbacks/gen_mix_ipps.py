@@ -15,8 +15,8 @@ from .utitls import text_fig
     ),
     inputs=dict(
         generations_json=State("generations-store", "data"),
-        start_datetime=Input("datetime-range", "startDate"),
-        end_datetime=Input("datetime-range", "endDate"),
+        start_datetime=Input("start-datetime", "value"),
+        end_datetime=Input("end-datetime", "value"),
         graphs_type=Input("graphs-type", "value"),
     ),
 )
@@ -25,6 +25,12 @@ def update_gen_mix_ipps_chart(
 ):
     if not generations_json:
         raise PreventUpdate
+
+    if not all([start_datetime, end_datetime]):
+        return dict(
+            gen_mix_chart=text_fig("Select start and end periods", size=24),
+            wholesale_suppliers_chart=text_fig("Select start and end periods", size=24),
+        )
 
     start_datetime = pd.to_datetime(start_datetime)
     end_datetime = pd.to_datetime(end_datetime)
@@ -88,24 +94,24 @@ def update_gen_mix_ipps_chart(
             x=gen_mix_data.index,
             y=gen_mix_data.values,
             title=f"Generation Mix: {readable_start_datetime} to {readable_end_datetime}",
-            labels={"x": "Generation Type", "y": "Generation (kWh)"},
+            labels={"x": "Generation Type", "y": "Generation (mWh)"},
         )
         wholesale_suppliers = px.bar(
             x=wholesale_suppliers_data.index,
             y=wholesale_suppliers_data.values,
             title=f"Wholesale Suppliers: {readable_start_datetime} to {readable_end_datetime}",
-            labels={"x": "Wholesale Supplier", "y": "Generation (kWh)"},
+            labels={"x": "Wholesale Supplier", "y": "Generation (mWh)"},
         )
         gen_mix.update_traces(
             textposition="inside",
             text=[f"{val:,.2f}" for val in gen_mix_data.values],
-            hovertemplate="Generation Type: %{x}<br>Generation: %{y:,.2f} kWh<extra></extra>",
+            hovertemplate="Generation Type: %{x}<br>Generation: %{y:,.2f} mWh<extra></extra>",
         )
         gen_mix.update_layout(showlegend=False)
         wholesale_suppliers.update_traces(
             textposition="inside",
             text=[f"{val:,.2f}" for val in wholesale_suppliers_data.values],
-            hovertemplate="Wholesale Supplier: %{x}<br>Generation: %{y:,.2f} kWh<extra></extra>",
+            hovertemplate="Wholesale Supplier: %{x}<br>Generation: %{y:,.2f} mWh<extra></extra>",
         )
         wholesale_suppliers.update_layout(showlegend=False)
     return dict(gen_mix_chart=gen_mix, wholesale_suppliers_chart=wholesale_suppliers)
